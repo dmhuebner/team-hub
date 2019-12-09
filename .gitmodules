@@ -1,0 +1,6 @@
+[submodule "team-hub-api"]
+	path = team-hub-api
+	url = https://github.com/dmhuebner/team-hub-api.git
+[submodule "team-hub-ui"]
+	path = team-hub-ui
+	url = https://github.com/dmhuebner/team-hub-ui.git

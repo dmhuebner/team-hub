@@ -1,0 +1,11 @@
+version: '3'
+services:
+  team-hub-ui:
+    build: team-hub-ui
+    ports:
+      - "4200:4200"
+  team-hub-api:
+    build: team-hub-api
+    ports:
+      - "5005:5005"
+      - "3000:3000"

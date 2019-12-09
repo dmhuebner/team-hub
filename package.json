@@ -4,6 +4,8 @@
   "description": "Team Hub",
   "main": "index.js",
   "scripts": {
+    "start": "docker-compose up --build",
+    "updateSubmodules": "sh updateSubmodules.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "David",
