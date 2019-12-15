@@ -9,13 +9,17 @@ If you have docker installed but don't have docker-compose, [install docker-comp
 
 #### Run:
 
+Prepare the submodules:
+```bash
+npm run prepare
+```
+
+Start up the project server and the UI:
 ```bash
 npm start
 ```
 
 ### To Update Submodules:
-
-cd into the team-hub-ui and team-hub-api directories and run **git pull origin master**
 
 ```bash
 npm run updateSubmodules
