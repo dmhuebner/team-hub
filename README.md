@@ -19,6 +19,11 @@ Start up the project server and the UI:
 npm start
 ```
 
+Stop the project server and UI containers:
+```bash
+npm run stop
+```
+
 ### To Update Submodules:
 
 ```bash
